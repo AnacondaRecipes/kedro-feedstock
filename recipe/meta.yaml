@@ -10,7 +10,7 @@ source:
   sha256: da219eaf10ed96909195dda53cb33c66a3e017012501d08f0da90ce1879a3364
 
 build:
-  skip: True  # [py<38]
+  skip: True  # [py<38 or s390x]
   script: {{ PYTHON }} -m pip install --no-deps --no-build-isolation . -vv
   entry_points:
     - kedro = kedro.framework.cli:main
