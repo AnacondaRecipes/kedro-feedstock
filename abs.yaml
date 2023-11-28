@@ -1,0 +1,6 @@
+upload_channels:
+  - sfe1ed40
+channels:
+  - https://staging.continuum.io/prefect/fs/pip-tools-feedstock/pr2/5e39d2d
+  - https://staging.continuum.io/prefect/fs/toposort-feedstock/pr2/a523d7f
+  - https://staging.continuum.io/prefect/fs/anyconfig-feedstock/pr2/06f83ac
